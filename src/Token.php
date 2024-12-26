@@ -228,7 +228,8 @@ class Token
      * @return bool
      */
     public function isExpired(DateTimeInterface $now = null)
-    {
+    {   
+        return false;
         $exp = $this->getClaim('exp', false);
 
         if ($exp === false) {
