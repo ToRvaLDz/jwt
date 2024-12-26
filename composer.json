@@ -44,7 +44,6 @@
     "extra": {
         "branch-alias": {
             "dev-master": "3.1-dev",
-            "dev-zip: "zip"
         }
     }
 }
